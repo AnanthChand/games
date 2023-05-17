@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="breakout.css" />
+    <title>Breakout</title>
+    <style>
+      body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(9, 9, 121, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div class="breakout">
+      <div
+        id="score"
+        class="scorebr"
+        style="
+          color: white;
+          font-size: xx-large;
+          position: absolute;
+          right: 50%;
+        "
+      >
+        0
+      </div>
+      <div class="grid" style="position: absolute;
+      right: 33%;"></div>
+    </div>
+
+    <script src="breakout.js"></script>
+  </body>
+</html>
